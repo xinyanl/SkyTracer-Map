@@ -1,5 +1,5 @@
 <VRTDataset rasterXSize="18509" rasterYSize="11441">
-  <SRS>PROJCS["Wall_Planning_Chart",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["standard_parallel_1",45],PARAMETER["standard_parallel_2",33],PARAMETER["latitude_of_origin",38],PARAMETER["central_meridian",-100],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</SRS>
+  <SRS>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</SRS>
   <GeoTransform> -2.1893605386649012e+06,  2.6247750642447829e+02,  0.0000000000000000e+00,  1.5314700888555103e+06,  0.0000000000000000e+00, -2.6246550151724114e+02</GeoTransform>
   <Metadata>
     <MDI key="AREA_OR_POINT">Area</MDI>
@@ -15,7 +15,7 @@
   <VRTRasterBand dataType="Byte" band="1">
     <ColorInterp>Red</ColorInterp>
     <ComplexSource>
-      <SourceFilename relativeToVRT="1">U.S. VFR Wall Planning Chart 5.tif</SourceFilename>
+      <SourceFilename relativeToVRT="1">US_VFR_WallPlanning.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="18509" RasterYSize="11441" DataType="Byte" BlockXSize="18509" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="18509" ySize="11441" />
@@ -26,7 +26,7 @@
   <VRTRasterBand dataType="Byte" band="2">
     <ColorInterp>Green</ColorInterp>
     <ComplexSource>
-      <SourceFilename relativeToVRT="1">U.S. VFR Wall Planning Chart 5.tif</SourceFilename>
+      <SourceFilename relativeToVRT="1">US_VFR_WallPlanning.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="18509" RasterYSize="11441" DataType="Byte" BlockXSize="18509" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="18509" ySize="11441" />
@@ -37,7 +37,7 @@
   <VRTRasterBand dataType="Byte" band="3">
     <ColorInterp>Blue</ColorInterp>
     <ComplexSource>
-      <SourceFilename relativeToVRT="1">U.S. VFR Wall Planning Chart 5.tif</SourceFilename>
+      <SourceFilename relativeToVRT="1">US_VFR_WallPlanning.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="18509" RasterYSize="11441" DataType="Byte" BlockXSize="18509" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="18509" ySize="11441" />
@@ -48,7 +48,7 @@
   <VRTRasterBand dataType="Byte" band="4">
     <ColorInterp>Alpha</ColorInterp>
     <ComplexSource>
-      <SourceFilename relativeToVRT="1">U.S. VFR Wall Planning Chart 5.tif</SourceFilename>
+      <SourceFilename relativeToVRT="1">US_VFR_WallPlanning.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="18509" RasterYSize="11441" DataType="Byte" BlockXSize="18509" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="18509" ySize="11441" />
