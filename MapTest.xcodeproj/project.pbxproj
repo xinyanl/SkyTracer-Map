@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1668F01DC9A20F0085A65C /* maptile in Resources */ = {isa = PBXBuildFile; fileRef = 1F1668EF1DC9A20F0085A65C /* maptile */; };
+		1F1668F51DCAE30C0085A65C /* US1 in Resources */ = {isa = PBXBuildFile; fileRef = 1F1668F41DCAE30C0085A65C /* US1 */; };
 		1F500C991DC71B6400E32684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F500C981DC71B6400E32684 /* main.m */; };
 		1F500C9C1DC71B6400E32684 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F500C9B1DC71B6400E32684 /* AppDelegate.m */; };
 		1F500C9F1DC71B6400E32684 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F500C9E1DC71B6400E32684 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 		1F500CAA1DC71B6400E32684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F500CA81DC71B6400E32684 /* LaunchScreen.storyboard */; };
 		1F500CB51DC71B6400E32684 /* MapTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F500CB41DC71B6400E32684 /* MapTestTests.m */; };
 		1F500CC01DC71B6400E32684 /* MapTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F500CBF1DC71B6400E32684 /* MapTestUITests.m */; };
+		1F500CCE1DC71D3C00E32684 /* temp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F500CCD1DC71D3C00E32684 /* temp3 */; };
+		1F500CD01DC7221700E32684 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F500CCF1DC7221700E32684 /* MapKit.framework */; };
+		1F500CD21DC722B700E32684 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F500CD11DC722B700E32684 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1668EF1DC9A20F0085A65C /* maptile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = maptile; sourceTree = "<group>"; };
+		1F1668F41DCAE30C0085A65C /* US1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = US1; sourceTree = "<group>"; };
 		1F500C941DC71B6400E32684 /* MapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F500C981DC71B6400E32684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F500C9A1DC71B6400E32684 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +60,9 @@
 		1F500CBB1DC71B6400E32684 /* MapTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F500CBF1DC71B6400E32684 /* MapTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTestUITests.m; sourceTree = "<group>"; };
 		1F500CC11DC71B6400E32684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F500CCD1DC71D3C00E32684 /* temp3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = temp3; sourceTree = "<group>"; };
+		1F500CCF1DC7221700E32684 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1F500CD11DC722B700E32684 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F500CD21DC722B700E32684 /* CoreLocation.framework in Frameworks */,
+				1F500CD01DC7221700E32684 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +95,8 @@
 		1F500C8B1DC71B6400E32684 = {
 			isa = PBXGroup;
 			children = (
+				1F500CD11DC722B700E32684 /* CoreLocation.framework */,
+				1F500CCF1DC7221700E32684 /* MapKit.framework */,
 				1F500C961DC71B6400E32684 /* MapTest */,
 				1F500CB31DC71B6400E32684 /* MapTestTests */,
 				1F500CBE1DC71B6400E32684 /* MapTestUITests */,
@@ -103,6 +117,9 @@
 		1F500C961DC71B6400E32684 /* MapTest */ = {
 			isa = PBXGroup;
 			children = (
+				1F1668F41DCAE30C0085A65C /* US1 */,
+				1F1668EF1DC9A20F0085A65C /* maptile */,
+				1F500CCD1DC71D3C00E32684 /* temp3 */,
 				1F500C9A1DC71B6400E32684 /* AppDelegate.h */,
 				1F500C9B1DC71B6400E32684 /* AppDelegate.m */,
 				1F500C9D1DC71B6400E32684 /* ViewController.h */,
@@ -246,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1668F51DCAE30C0085A65C /* US1 in Resources */,
 				1F500CAA1DC71B6400E32684 /* LaunchScreen.storyboard in Resources */,
 				1F500CA71DC71B6400E32684 /* Assets.xcassets in Resources */,
+				1F500CCE1DC71D3C00E32684 /* temp3 in Resources */,
+				1F1668F01DC9A20F0085A65C /* maptile in Resources */,
 				1F500CA21DC71B6400E32684 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +522,7 @@
 				1F500CC61DC71B6400E32684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F500CC71DC71B6400E32684 /* Build configuration list for PBXNativeTarget "MapTestTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +531,7 @@
 				1F500CC91DC71B6400E32684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F500CCA1DC71B6400E32684 /* Build configuration list for PBXNativeTarget "MapTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +540,7 @@
 				1F500CCC1DC71B6400E32684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
